@@ -1,0 +1,14 @@
+C:\Programming C#\23.08\23.08\bin\Debug\net7.0\23.08.exe
+C:\Programming C#\23.08\23.08\bin\Debug\net7.0\23.08.deps.json
+C:\Programming C#\23.08\23.08\bin\Debug\net7.0\23.08.runtimeconfig.json
+C:\Programming C#\23.08\23.08\bin\Debug\net7.0\23.08.dll
+C:\Programming C#\23.08\23.08\bin\Debug\net7.0\23.08.pdb
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\23.08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\23.08.AssemblyInfoInputs.cache
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\23.08.AssemblyInfo.cs
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\23.08.csproj.CoreCompileInputs.cache
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\23.08.dll
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\refint\23.08.dll
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\23.08.pdb
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\23.08.genruntimeconfig.cache
+C:\Programming C#\23.08\23.08\obj\Debug\net7.0\ref\23.08.dll
