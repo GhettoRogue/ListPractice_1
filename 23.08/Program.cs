@@ -28,7 +28,7 @@ int InputNumbers(string message)
 
 void PrintNumbers(IEnumerable<int> collection)
 {
-    Console.WriteLine("Вывод коллекции: ");
+    Console.Write("Вывод коллекции: ");
     Console.ForegroundColor = ConsoleColor.DarkYellow;
     Console.Write("[ ");
     foreach (var item in numbers!)
