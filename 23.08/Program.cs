@@ -1,4 +1,4 @@
-﻿List<int> numbers = NumbersFromUser();
+﻿var numbers = NumbersFromUser();
 
 PrintNumbers(numbers);
 
@@ -9,10 +9,10 @@ PrintAverage((float)average);
 List<int> NumbersFromUser()
 {
     var collection = new List<int>();
-    int count = InputNumbers("Введите количество чисел листа:");
+    int count = InputNumbers("Введите количество чисел коллекции:");
     for (int i = 0; i < count; i++)
     {
-        int number = InputNumbers("Введите числа листа:");
+        int number = InputNumbers("Введите числа коллекции:");
         collection.Add(number);
     }
 
@@ -29,7 +29,7 @@ int InputNumbers(string message)
 void PrintNumbers(IEnumerable<int> collection)
 {
     Console.ForegroundColor = ConsoleColor.DarkYellow;
-    Console.Write("Список чисел листа:");
+    Console.Write("Список чисел коллекции:");
     Console.Write("[");
     foreach (int item in numbers)
     {
@@ -43,6 +43,6 @@ void PrintNumbers(IEnumerable<int> collection)
 void PrintAverage(float averageInList)
 {
     Console.ForegroundColor = ConsoleColor.Green;
-    Console.Write("Среднее арифметическое листа: {0}", averageInList);
+    Console.Write("Среднее арифметическое коллекции: {0}", averageInList);
     Console.ResetColor();
 }
