@@ -3,7 +3,7 @@
 PrintNumbers(numbers);
 
 var average = numbers.Average();
-PrintAverage((float)average);
+PrintAverage(average);
 
 
 List<int> NumbersFromUser()
@@ -40,7 +40,7 @@ void PrintNumbers(IEnumerable<int> collection)
     Console.ResetColor();
 }
 
-void PrintAverage(float averageInList)
+void PrintAverage(double averageInList)
 {
     Console.ForegroundColor = ConsoleColor.Green;
     Console.Write("Среднее арифметическое коллекции: {0}", averageInList);
