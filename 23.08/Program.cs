@@ -29,11 +29,10 @@ int InputNumbers(string message)
 void PrintNumbers(IEnumerable<int> collection)
 {
     Console.ForegroundColor = ConsoleColor.DarkYellow;
-    Console.Write("Список чисел коллекции:");
-    Console.Write("[");
-    foreach (int item in numbers)
+    Console.Write("[ ");
+    foreach (var item in numbers!)
     {
-        Console.Write(item);
+        Console.Write($"{item} ");
     }
 
     Console.WriteLine("]");
