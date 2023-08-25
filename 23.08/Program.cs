@@ -22,7 +22,7 @@ List<int> NumbersFromUser()
 int InputNumbers(string message)
 {
     Console.Write(message);
-    string? input = Console.ReadLine();
+    var input = Console.ReadLine();
     return int.Parse(input);
 }
 
